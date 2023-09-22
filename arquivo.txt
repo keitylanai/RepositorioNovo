@@ -1,0 +1,71 @@
+programa
+{
+  funcao inicio()
+  {
+    inteiro opcao_1 = 0, opcao_2 = 0, opcao_3 = 0, opcao_4 = 0
+   
+    inteiro total = 0
+   
+    inteiro opcao
+   
+    faca
+    {
+      limpa()
+      escreva("**********Menu Lanchonete - Keity Lanai**********\n\n")
+     
+      escreva("1. X-Salada_______R$12,00\n")
+      escreva("2. X-Bacon_______R$18,00 \n")
+      escreva("3. X-Egg_______R$15,00 \n")
+      escreva("4. Refrigerante_______R$08,00 \n")
+      escreva("5. Finalizar Pedido \n\n")
+     
+     
+      escreva("Escolha uma opção de lanche: ")
+     
+      leia(opcao)
+     
+
+
+      escolha (opcao)
+      {
+        caso 1:
+          opcao_1 = opcao_1 + 12
+        pare
+         
+        caso 2:
+          opcao_2 = opcao_2 + 18
+        pare
+       
+        caso 3:
+          opcao_3 = opcao_3 + 15
+        pare
+       
+       caso 4:
+          opcao_4 = opcao_4 + 8
+        pare
+      caso 5:
+          escreva ("Pedido Finalizado!\n")
+
+
+       
+         
+      }      
+    }
+    enquanto(opcao != 5)
+
+
+   
+    total = opcao_1 + opcao_2 + opcao_3 + opcao_4
+
+
+   
+   
+
+
+      escreva("\n")
+     
+      escreva("Total da Compra:R$ ", total ,",00\n\n")
+   
+    }
+  }
+}
