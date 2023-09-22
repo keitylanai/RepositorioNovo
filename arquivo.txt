@@ -11,7 +11,7 @@ programa
     faca
     {
       limpa()
-      escreva("**********Menu Lanchonete - Keity Lanai**********\n\n")
+      escreva("**********Menu Lanchonete - Keity Lanai**********versão 2\n\n")
      
       escreva("1. X-Salada_______R$12,00\n")
       escreva("2. X-Bacon_______R$18,00 \n")
